@@ -65,6 +65,7 @@ entity Spacefarers : cuid, managed {
     firstName                : String(80);
     lastName                 : String(80);
     callSign                 : String(60);
+    contactEmail             : String(255);
     originPlanet             : OriginPlanet;
     cosmicSpecies            : CosmicSpecies;
     spacesuitColor           : SpacesuitColor;

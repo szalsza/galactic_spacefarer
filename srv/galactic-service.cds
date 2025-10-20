@@ -23,6 +23,7 @@ service GalacticSpacefarerService @(path: '/galactic-spacefarers') {
     firstName,
     lastName,
     callSign,
+    contactEmail,
     originPlanet,
     cosmicSpecies,
     spacesuitColor,

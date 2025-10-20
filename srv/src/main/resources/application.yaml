@@ -22,3 +22,7 @@ cds:
         lynda:    { password: lynda,    roles: [SpacefarerLieutenant], attributes: { originPlanet: "Kepler-62f" } }
         cadetx:   { password: cadetx,   roles: [SpacefarerCadet],      attributes: { originPlanet: "Umbra Nine" } }
         cadetlyr: { password: cadetlyr, roles: [SpacefarerCadet],      attributes: { originPlanet: "Lyra Station" } }
+spacefarer:
+  notifications:
+    # Configure the sender address used for outgoing welcome emails. Falls back to spring.mail.username when empty.
+    from: "noreply@galactic-spacefarer.com"
