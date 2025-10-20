@@ -1,2 +1,10 @@
 {
+  "requires": {
+    "db": {
+      "kind": "sqlite",
+      "credentials": {
+        "database": "data/spacefarer.db"
+      }
+    }
+  }
 }

@@ -3,14 +3,14 @@ server:
 
 spring:
   sql:
-      init:
-        mode: always
-        schema-locations: classpath:schema-h2.sql
-        continue-on-error: true
+    init:
+      mode: always
+      schema-locations: classpath:schema-sqlite.sql
+      continue-on-error: true
   datasource:
-    url: jdbc:h2:mem:space;DB_CLOSE_DELAY=-1
-    driverClassName: org.h2.Driver
-    username: sa
+    url: jdbc:sqlite:file:./data/spacefarer.db
+    driverClassName: org.sqlite.JDBC
+    username:
     password:
 
 cds:

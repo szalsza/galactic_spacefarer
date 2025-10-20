@@ -5,6 +5,7 @@
 *.sqlite-wal
 *.sqlite-shm
 schema*.sql
+!srv/src/main/resources/schema-sqlite.sql
 default-env.json
 
 **/bin/
