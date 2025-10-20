@@ -18,6 +18,7 @@ cds:
     mock:
       enabled: true
       users:
-        admin: { password: admin, roles: [SpaceAdmin], attributes: { planet: "HQ" } }
-        alice: { password: alice, roles: [SpaceUser], attributes: { planet: "X" } }
-        bob:   { password: bob,   roles: [SpaceUser], attributes: { planet: "Y" } }
+        admin:    { password: admin,    roles: [SpacefarerAdmin],      attributes: { originPlanet: "Terra Nova" } }
+        lynda:    { password: lynda,    roles: [SpacefarerLieutenant], attributes: { originPlanet: "Kepler-62f" } }
+        cadetx:   { password: cadetx,   roles: [SpacefarerCadet],      attributes: { originPlanet: "Umbra Nine" } }
+        cadetlyr: { password: cadetlyr, roles: [SpacefarerCadet],      attributes: { originPlanet: "Lyra Station" } }
